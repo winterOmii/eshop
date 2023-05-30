@@ -4,14 +4,16 @@
   "version": "11.0.0",
   "main": "release.js",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/totaljs/eshop"
+    "type": "git",
+    "url": "https://github.com/totaljs/eshop"
   },
   "dependencies": {
     "paypal-express-checkout": "latest",
     "total.js": "latest"
   },
   "scripts": {
+    "start": "node release.js",
+    "dev": "node debug.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,5 +21,5 @@
     "ecommerce"
   ],
   "author": "Peter Širka",
-  "license":"MIT"
+  "license": "MIT"
 }
