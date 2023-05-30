@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=10" />
@@ -13,10 +14,12 @@
 	@{import('meta', 'head', 'default.css', 'default.js', 'favicon.ico')}
 	<script>var LOGGED = +'@{if user}1@{else}0@{fi}';</script>
 </head>
+
 <body data-jc="exec,binder,modificator">
 	<br />
 	<div data-jc="loading" class="ui-loading@{if !repository.loading} hidden@{fi}"></div>
-	<div data-jc="shoppingcart" data-jc-path="shoppingcart" data-jc-config="discount:@{if user}@{user.discount}@{else}0@{fi}"></div>
+	<div data-jc="shoppingcart" data-jc-path="shoppingcart"
+		data-jc-config="discount:@{if user}@{user.discount}@{else}0@{fi}"></div>
 	<div data-jc="message" data-jc-config="button:@(Close)"></div>
 	<div data-jc="autocomplete"></div>
 
@@ -25,11 +28,11 @@
 		<div class="relative">
 			<div class="account">
 				@{if user}
-					<a href="@{sitemap_url('account')}" class="b">@{user.name}</a>
-					<a href="@{sitemap_url('settings')}"><i class="fa fa-cog"></i>@(Settings)</a>
-					<a href="@{sitemap_url('logoff')}"><i class="fa fa-sign-out"></i>@(Sign out)</a>
+				<a href="@{sitemap_url('account')}" class="b">@{user.name}</a>
+				<a href="@{sitemap_url('settings')}"><i class="fa fa-cog"></i>@(Settings)</a>
+				<a href="@{sitemap_url('logoff')}"><i class="fa fa-sign-out"></i>@(Sign out)</a>
 				@{else}
-					<a href="@{sitemap_url('account')}"><i class="fa fa-lock"></i>@(Sign in)</a>
+				<a href="@{sitemap_url('account')}"><i class="fa fa-lock"></i>@(Sign in)</a>
 				@{fi}
 			</div>
 		</div>
@@ -40,7 +43,8 @@
 					<a href="/" class="logo"><img src="/img/logo.png" alt="@{'%name'}" border="0" /></a>
 					<div class="categoriescontainer">
 						<div class="categoriesbody bg-yellow fs12 ui-center m">
-							This is a new version of new <b>Total.js Eshop</b>. This version will be available soon for all Total.js members.
+							This is a new version of new <b>Total.js Eshop</b>. This version will be available soon for
+							all Total.js members.
 						</div>
 
 						<div class="categoriesbody npb">
@@ -48,11 +52,12 @@
 						</div>
 						<nav>
 							@{foreach m in F.global.navigations.panel.children}
-								<a href="@{m.url}"><i class="fa fa-caret-right"></i>@{m.name}</a>
+							<a href="@{m.url}"><i class="fa fa-caret-right"></i>@{m.name}</a>
 							@{end}
 							<a href="@{sitemap_url('new')}"><i class="fa fa-caret-right"></i>@(New goods)</a>
 							<a href="@{sitemap_url('top')}"><i class="fa fa-caret-right"></i>@(Top products)</a>
-							<a href="@{sitemap_url('popular')}"><i class="fa fa-caret-right"></i>@(Popular products)<span>@(NEW)</span></a>
+							<a href="@{sitemap_url('popular')}"><i class="fa fa-caret-right"></i>@(Popular
+								products)<span>@(NEW)</span></a>
 							<a href="@{sitemap_url('category')}"><i class="fa fa-caret-right"></i>@(All products)</a>
 						</nav>
 						<div class="categoriesbody npb">
@@ -69,25 +74,28 @@
 					<header>
 						<nav>
 							@{foreach m in F.global.navigations.menu.children}
-								<a href="@{m.url}">@{if m.icon}<i class="fa fa-@{m.icon}"></i>@{fi}@{m.name}</a>
+							<a href="@{m.url}">@{if m.icon}<i class="fa fa-@{m.icon}"></i>@{fi}@{m.name}</a>
 							@{end}
 						</nav>
 						<div class="shoppingcart" data-m="shoppingcart.sum + shoppingcart">
-							<a href="@{sitemap_url('checkout')}"><b data-b="shoppingcart.sum" data-b-html="'@{global.config.currency_entity}'.format(value ? value.format(2) : (0).format(2))">...</b><span>@(Your shopping cart)</span></a>
+							<a href="@{sitemap_url('checkout')}"><b data-b="shoppingcart.sum"
+									data-b-html="'@{global.config.currency_entity}'.format(value ? value.format(2) : (0).format(2))">...</b><span>@(Your
+									shopping cart)</span></a>
 						</div>
 						<form class="search" action="@{sitemap_url('category')}" method="get">
 							<button><i class="fa fa-search"></i></button>
-							<div><input type="text" placeholder="@(Search products ...)" name="q" value="@{query.q}" id="search" autocomplete="off" /></div>
+							<div><input type="text" placeholder="@(Search products ...)" name="q" value="@{query.q}"
+									id="search" autocomplete="off" /></div>
 						</form>
 					</header>
 
 					<nav class="breadcrumb">
 						@{foreach m in sitemap()}
-							@{if m.id === 'category'}
-								<i class="fa fa-caret-right"></i><a href="@{m.url}">@{m.name}</a>
-							@{else}
-								<i class="fa fa-caret-right"></i><a href="@{m.url}">@{m.name}</a>
-							@{fi}
+						@{if m.id === 'category'}
+						<i class="fa fa-caret-right"></i><a href="@{m.url}">@{m.name}</a>
+						@{else}
+						<i class="fa fa-caret-right"></i><a href="@{m.url}">@{m.name}</a>
+						@{fi}
 						@{end}
 					</nav>
 					@{body}
@@ -100,5 +108,182 @@
 
 	<script src="@{global.js}"></script>
 
+	<footer style="background: #fafafa;
+    margin-top: 5rem;">
+
+
+		<div class="services-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="service-item my-1">
+							<div class="icon"><img
+									src="https://demo.beikeshop.com/cache/catalog/demo/services-icon/4-80x80.png"
+									class="img-fluid"></div>
+							<div class="text">
+								<p class="title">Material world</p>
+								<p class="sub-title">Multi - warehouse fast delivery</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="service-item my-1">
+							<div class="icon"><img
+									src="https://demo.beikeshop.com/cache/catalog/demo/services-icon/3-80x80.png"
+									class="img-fluid"></div>
+							<div class="text">
+								<p class="title">Return all</p>
+								<p class="sub-title">Rest assured shopping return worry</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="service-item my-1">
+							<div class="icon"><img
+									src="https://demo.beikeshop.com/cache/catalog/demo/services-icon/1-80x80.png"
+									class="img-fluid"></div>
+							<div class="text">
+								<p class="title">Delicate service</p>
+								<p class="sub-title">Exquisite service and after-sales guarantee</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="service-item my-1">
+							<div class="icon"><img
+									src="https://demo.beikeshop.com/cache/catalog/demo/services-icon/2-80x80.png"
+									class="img-fluid"></div>
+							<div class="text">
+								<p class="title">With reduced activity</p>
+								<p class="sub-title">If 500 yuan is exceeded, a reduction of 90 yuan will be given</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="footer-content">
+				<div class="row">
+					<div class="col-sm-12 col-md-12">
+						<div class="footer-content-left">
+							<div class="logo" style="max-width:150px;padding: 5px;"><a href="http://"><img
+										src="/img/logo.png" class="img-fluid"></a></div>
+							<div class="text tinymce-format-p">
+								<p>Chengdu Guangda Network Technology Co., Ltd. is a high-tech enterprise mainly engaged
+									in Internet development. The company was established in August 2014.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3 footer-content-link1">
+						<h6 class="text-uppercase text-dark mb-3">About us</h6>
+						<ul class="list-unstyled">
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/pages/21">
+									about us
+								</a>
+							</li>
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/pages/18">
+									Distribution information
+								</a>
+							</li>
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/pages/12">
+									Privacy policy
+								</a>
+							</li>
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/account/orders">
+									Order
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-12 col-md-3 footer-content-link2">
+						<h6 class="text-uppercase text-dark mb-3">Account</h6>
+						<ul class="list-unstyled">
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/account">
+									Account
+								</a>
+							</li>
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/account/orders">
+									Order
+								</a>
+							</li>
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/account/wishlist">
+									Wishlist
+								</a>
+							</li>
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/brands">
+									Brand List
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-12 col-md-3 footer-content-link3">
+						<h6 class="text-uppercase text-dark mb-3">Other</h6>
+						<ul class="list-unstyled">
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/brands">
+									Brand List
+								</a>
+							</li>
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/account">
+									Account
+								</a>
+							</li>
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/pages/20">
+									Terms of use
+								</a>
+							</li>
+							<li class="lh-lg mb-2">
+								<a href="https://demo.beikeshop.com/pages/21">
+									About
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-sm-12 col-md-3 footer-content-contact">
+						<h6 class="text-uppercase text-dark mb-3">Contact us</h6>
+						<ul class="list-unstyled">
+							<li class="lh-lg mb-2"><i class="bi bi-envelope-fill"></i> marketing@guangda.work</li>
+							<li class="lh-lg mb-2"><i class="bi bi-telephone-fill"></i> 028-87966209</li>
+							<li class="lh-lg mb-2"><i class="bi bi-geo-alt-fill"></i> G8 Tianfu Software Park Chengdu
+								China, Guangda Network Technology Co., Ltd.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col">
+						<div class="d-flex">
+							Powered By&nbsp;<a href="https://beikeshop.com/" target="_blank"
+								rel="noopener">BeikeShop</a>&nbsp;
+							<div>&nbsp; - Chengdu Guangda Network Technology © 2023</div>
+						</div>
+					</div>
+					<div class="col-auto right-img py-2">
+						<img src="https://demo.beikeshop.com/catalog/demo/banner/pay_icons.png" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
 </body>
+
 </html>

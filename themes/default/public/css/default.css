@@ -9,7 +9,7 @@ body {
 }
 
 body {
-	background-color: #f8f8f8;
+	background-color: #fff;
 }
 
 .CMS_hidden {
@@ -1383,4 +1383,24 @@ h2 .fa {
 	display: block;
 	margin: 10px 0 0;
 	border-radius: 4px;
+}
+
+/**
+fix css
+**/
+
+footer .services-wrap {
+	border-bottom: 1px solid #e4e4e4;
+	padding: 2.2rem 0;
+}
+
+footer .footer-bottom {
+	align-items: center;
+	background: #efeff4;
+	color: #666;
+	display: flex;
+}
+
+footer .footer-content {
+	padding: 3rem 0;
 }
