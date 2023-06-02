@@ -40,12 +40,13 @@
 		<div class="row">
 			<div class="col-md-3">
 				<section class="categories">
-					<a href="/" class="logo"><img src="/img/logo.png" alt="@{'%name'}" border="0" /></a>
+					<a href="/" class="logo"><img src="/img/logo.png" style="width:120px;display: block;margin: auto;"
+							alt="@{'%name'}" border="0" /></a>
 					<div class="categoriescontainer">
-						<div class="categoriesbody bg-yellow fs12 ui-center m">
+						<!-- <div class="categoriesbody bg-yellow fs12 ui-center m">
 							This is a new version of new <b>Total.js Eshop</b>. This version will be available soon for
 							all Total.js members.
-						</div>
+						</div> -->
 
 						<div class="categoriesbody npb">
 							<div class="caption">@(We recommend)</div>
@@ -108,52 +109,50 @@
 
 	<script src="@{global.js}"></script>
 
-	<footer style="background: #fafafa;
+	<footer style="background: #ffffff;
     margin-top: 5rem;">
 
 
 		<div class="services-wrap">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-3 col-md-6 col-12">
+					<div class="col-lg-3 col-md-6 col-12 services-item">
 						<div class="service-item my-1">
-							<div class="icon"><img
-									src="https://demo.beikeshop.com/cache/catalog/demo/services-icon/4-80x80.png"
-									class="img-fluid"></div>
-							<div class="text">
+							<div class="icon" style="width:100%;text-align: center;"><img src="/img/logo.png"
+									style="max-width:130px;padding: 5px;" class="img-fluid"></div>
+							<div class="text" style="text-align: center;">
 								<p class="title">Material world</p>
 								<p class="sub-title">Multi - warehouse fast delivery</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 col-12">
+
+					<div class="col-lg-3 col-md-6 col-12 services-item">
 						<div class="service-item my-1">
-							<div class="icon"><img
-									src="https://demo.beikeshop.com/cache/catalog/demo/services-icon/3-80x80.png"
-									class="img-fluid"></div>
-							<div class="text">
-								<p class="title">Return all</p>
-								<p class="sub-title">Rest assured shopping return worry</p>
+							<div class="icon" style="text-align: center;"><img src="/img/4-80x80.png" class="img-fluid">
+							</div>
+							<div class="text" style="text-align: center;">
+								<p class="title">Material world</p>
+								<p class="sub-title">Multi - warehouse fast delivery</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 col-12">
+
+					<div class="col-lg-3 col-md-6 col-12 services-item">
 						<div class="service-item my-1">
-							<div class="icon"><img
-									src="https://demo.beikeshop.com/cache/catalog/demo/services-icon/1-80x80.png"
-									class="img-fluid"></div>
-							<div class="text">
+							<div class="icon" style="text-align: center;"><img src="/img/1-80x80.png" class="img-fluid">
+							</div>
+							<div class="text" style="text-align: center;">
 								<p class="title">Delicate service</p>
 								<p class="sub-title">Exquisite service and after-sales guarantee</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 col-12">
+					<div class="col-lg-3 col-md-6 col-12 services-item">
 						<div class="service-item my-1">
-							<div class="icon"><img
-									src="https://demo.beikeshop.com/cache/catalog/demo/services-icon/2-80x80.png"
-									class="img-fluid"></div>
-							<div class="text">
+							<div class="icon" style="text-align: center;"><img src="/img/2-80x80.png" class="img-fluid">
+							</div>
+							<div class="text" style="text-align: center;">
 								<p class="title">With reduced activity</p>
 								<p class="sub-title">If 500 yuan is exceeded, a reduction of 90 yuan will be given</p>
 							</div>
@@ -167,36 +166,27 @@
 		<div class="container">
 			<div class="footer-content">
 				<div class="row">
-					<div class="col-sm-12 col-md-12">
-						<div class="footer-content-left">
-							<div class="logo" style="max-width:150px;padding: 5px;"><a href="http://"><img
-										src="/img/logo.png" class="img-fluid"></a></div>
-							<div class="text tinymce-format-p">
-								<p>Chengdu Guangda Network Technology Co., Ltd. is a high-tech enterprise mainly engaged
-									in Internet development. The company was established in August 2014.</p>
-							</div>
-						</div>
-					</div>
+
 					<div class="col-sm-12 col-md-3 footer-content-link1">
 						<h6 class="text-uppercase text-dark mb-3">About us</h6>
-						<ul class="list-unstyled">
+						<ul class="list-unstyled" style="padding: 0;list-style: none;">
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/pages/21">
+								<a href="/">
 									about us
 								</a>
 							</li>
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/pages/18">
+								<a href="/">
 									Distribution information
 								</a>
 							</li>
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/pages/12">
+								<a href="/">
 									Privacy policy
 								</a>
 							</li>
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/account/orders">
+								<a href="/">
 									Order
 								</a>
 							</li>
@@ -204,24 +194,24 @@
 					</div>
 					<div class="col-sm-12 col-md-3 footer-content-link2">
 						<h6 class="text-uppercase text-dark mb-3">Account</h6>
-						<ul class="list-unstyled">
+						<ul class="list-unstyled" style="padding: 0;list-style: none;">
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/account">
+								<a href="/">
 									Account
 								</a>
 							</li>
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/account/orders">
+								<a href="/">
 									Order
 								</a>
 							</li>
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/account/wishlist">
+								<a href="/">
 									Wishlist
 								</a>
 							</li>
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/brands">
+								<a href="/">
 									Brand List
 								</a>
 							</li>
@@ -229,24 +219,24 @@
 					</div>
 					<div class="col-sm-12 col-md-3 footer-content-link3">
 						<h6 class="text-uppercase text-dark mb-3">Other</h6>
-						<ul class="list-unstyled">
+						<ul class="list-unstyled" style="padding: 0;list-style: none;">
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/brands">
+								<a href="/">
 									Brand List
 								</a>
 							</li>
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/account">
+								<a href="/">
 									Account
 								</a>
 							</li>
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/pages/20">
+								<a href="/">
 									Terms of use
 								</a>
 							</li>
 							<li class="lh-lg mb-2">
-								<a href="https://demo.beikeshop.com/pages/21">
+								<a href="/">
 									About
 								</a>
 							</li>
@@ -255,29 +245,31 @@
 
 					<div class="col-sm-12 col-md-3 footer-content-contact">
 						<h6 class="text-uppercase text-dark mb-3">Contact us</h6>
-						<ul class="list-unstyled">
-							<li class="lh-lg mb-2"><i class="bi bi-envelope-fill"></i> marketing@guangda.work</li>
-							<li class="lh-lg mb-2"><i class="bi bi-telephone-fill"></i> 028-87966209</li>
-							<li class="lh-lg mb-2"><i class="bi bi-geo-alt-fill"></i> G8 Tianfu Software Park Chengdu
-								China, Guangda Network Technology Co., Ltd.</li>
+						<ul class="list-unstyled" style="padding: 0;list-style: none;">
+							<li class="lh-lg mb-2"><i class="bi bi-envelope-fill"></i>
+								lucici-store@gmail.com</li>
+							<li class="lh-lg mb-2"><i class="bi bi-telephone-fill"></i> +852 12345690</li>
+							<li class="lh-lg mb-2"><i class="bi bi-geo-alt-fill"></i> Lucici-store Co., Ltd.</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="footer-bottom">
+		<div class="footer-bottom" style="padding:15px;">
 			<div class="container">
-				<div class="row align-items-center">
-					<div class="col">
-						<div class="d-flex">
-							Powered By&nbsp;<a href="https://beikeshop.com/" target="_blank"
-								rel="noopener">BeikeShop</a>&nbsp;
-							<div>&nbsp; - Chengdu Guangda Network Technology © 2023</div>
-						</div>
+				<div class="row" style="align-items: center;">
+					<div class="col-md-6 col-12">
+						<a href="/pages/privacy-terms" style="color:rgba(255, 255, 255, 0.724)"
+							title="Privacy terms">Privacy Terms</a> |
+						<a href="/pages/sitemap" style="color:rgba(255, 255, 255, 0.724)"
+							title="Sitemap">Sitemap</a><span class="footer-jayden"> |
+							© 2023 <a href="/" style="color:rgba(255, 255, 255, 0.936)" title="Lucici onlien
+							store">Lucici store</a></span>
+
 					</div>
-					<div class="col-auto right-img py-2">
-						<img src="https://demo.beikeshop.com/catalog/demo/banner/pay_icons.png" class="img-fluid">
+					<div class="col-md-6 col-12 ">
+						<img src="/img/pay_icons.png" class="img-fluid" style="margin-left:auto;display: block;">
 					</div>
 				</div>
 			</div>
