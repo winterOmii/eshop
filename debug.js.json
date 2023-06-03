@@ -1,5 +1,5 @@
 {
-  "pid": 62917,
+  "pid": 8011,
   "stats": [
     {
       "id": null,
@@ -8,13 +8,13 @@
         "total": "3.4.13",
         "app": "11.0.0"
       },
-      "pid": 62917,
+      "pid": 8011,
       "thread": "",
       "mode": "debug",
       "overload": 0,
-      "date": "2023-06-02T08:08:25.090Z",
-      "memory": 16.16,
-      "rm": 2,
+      "date": "2023-06-03T03:42:55.088Z",
+      "memory": 12.86,
+      "rm": 1,
       "fm": 0,
       "wm": 0,
       "mm": 0,
@@ -23,12 +23,12 @@
       "dbrm": 0,
       "dbwm": 0,
       "usage": 0,
-      "requests": 6120,
+      "requests": 338,
       "pending": 0,
       "errors": 0,
       "timeouts": 0,
-      "uptime": 214,
-      "online": 0
+      "uptime": 49,
+      "online": 1
     }
   ]
 }
