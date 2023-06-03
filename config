@@ -1,9 +1,9 @@
-name                      : E-shop
+name                      : Lucici online store
 version                   : 11.0.0
-author                    : Peter Širka
+author                    : Lucici
 
 // Hidden super admin in the form username:password
-admin-superadmin          : admin:admin
+admin-superadmin          : lucici:lucici@1234
 admin-cookie              : __admin
 
 // Enables real-time visitor tracking
