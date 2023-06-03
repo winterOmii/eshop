@@ -4,6 +4,7 @@
   "version": "11.0.0",
   "main": "release.js",
   "dependencies": {
+    "imagemagick": "^0.1.3",
     "paypal-express-checkout": "latest",
     "total.js": "latest"
   },
