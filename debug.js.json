@@ -1,5 +1,5 @@
 {
-  "pid": 16279,
+  "pid": 76232,
   "stats": [
     {
       "id": null,
@@ -8,27 +8,27 @@
         "total": "3.4.13",
         "app": "11.0.0"
       },
-      "pid": 16279,
+      "pid": 76232,
       "thread": "",
       "mode": "debug",
       "overload": 0,
-      "date": "2023-06-03T04:38:33.076Z",
-      "memory": 9.4,
-      "rm": 0,
-      "fm": 0,
+      "date": "2023-06-06T05:46:52.665Z",
+      "memory": 16.57,
+      "rm": 15,
+      "fm": 39,
       "wm": 0,
       "mm": 0,
-      "om": 0,
+      "om": 138,
       "em": 0,
       "dbrm": 0,
       "dbwm": 0,
       "usage": 0,
-      "requests": 0,
+      "requests": 470,
       "pending": 0,
       "errors": 0,
       "timeouts": 0,
-      "uptime": 3,
-      "online": 0
+      "uptime": 28,
+      "online": 1
     }
   ]
 }
