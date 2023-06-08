@@ -1,5 +1,5 @@
 {
-  "pid": 76232,
+  "pid": 50925,
   "stats": [
     {
       "id": null,
@@ -8,27 +8,28 @@
         "total": "3.4.13",
         "app": "11.0.0"
       },
-      "pid": 76232,
+      "pid": 50925,
       "thread": "",
       "mode": "debug",
       "overload": 0,
-      "date": "2023-06-06T05:46:52.665Z",
-      "memory": 16.57,
-      "rm": 15,
-      "fm": 39,
+      "date": "2023-06-08T02:45:59.781Z",
+      "memory": 13.52,
+      "rm": 33,
+      "fm": 93,
       "wm": 0,
       "mm": 0,
-      "om": 138,
+      "om": 313,
       "em": 0,
       "dbrm": 0,
       "dbwm": 0,
       "usage": 0,
-      "requests": 470,
+      "requests": 126,
       "pending": 0,
-      "errors": 0,
+      "errors": 1,
       "timeouts": 0,
-      "uptime": 28,
-      "online": 1
+      "uptime": 2,
+      "online": 1,
+      "lasterror": "2023-06-08T02:45:02.869Z Error: Pay failed\n    at ControllerProto.throw500.ControllerProto.view500 (/Users/yfd/Documents/GitHub/eshop/node_modules/total.js/index.js:14592:43)\n    at /Users/yfd/Documents/GitHub/eshop/controllers/eshop.js:188:15\n    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:4\n    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)\n    at IncomingMessage.emit (node:events:524:35)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
     }
   ]
 }

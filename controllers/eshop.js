@@ -183,7 +183,9 @@ function paypal_redirect(order, controller) {
 	paypal.pay(order.id, order.price, F.config.name, F.global.config.currency, function(err, url) {
 		if (err) {
 			LOGGER('paypal', order.id, err);
-			controller.throw500(err);
+			console.log('pay failed');
+			console.error(err)
+			controller.throw500('Pay failed');
 		} else
 			controller.redirect(url);
 	});

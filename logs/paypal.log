@@ -1,0 +1,96 @@
+2023-06-08 02:16:37 | 1761317001pr71b Error: ACK Failure: Security header is not valid
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:31:57 | 1761317001pr71b Error: ACK Failure: Security header is not valid
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:32:09 | 1761317001pr71b Error: ACK Failure: Security header is not valid
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:32:26 | 1761317001pr71b Error: ACK Failure: Security header is not valid
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:32:55 | 1761317001pr71b Error: ACK Failure: Security header is not valid
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:33:13 | 1761317001pr71b Error: ACK Failure: Security header is not valid
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:33:33 | 1761317001pr71b Error: ACK Failure: Security header is not valid
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:40:21 | 1761317001pr71b Error: ACK Failure: Account is restricted
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:41:33 | 1761317001pr71b Error: ACK Failure: Account is restricted
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:41:36 | 1761317001pr71b Error: ACK Failure: Account is restricted
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:42:07 | 1761317001pr71b Error: ACK Failure: Account is restricted
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:42:17 | 1761317001pr71b Error: ACK Failure: Account is restricted
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:42:29 | 1761317001pr71b Error: ACK Failure: Account is restricted
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:43:56 | 1761317001pr71b Error: ACK Failure: Account is restricted
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:44:35 | 1761317001pr71b Error: ACK Failure: Account is restricted
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-08 02:45:02 | 1761317001pr71b Error: ACK Failure: Account is restricted
+    at /Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:138:13
+    at IncomingMessage.<anonymous> (/Users/yfd/Documents/GitHub/eshop/node_modules/paypal-express-checkout/index.js:176:4)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
